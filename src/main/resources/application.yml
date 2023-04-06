@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: person-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_persons
+    username: root
+    password: aaron
+
+todo_base_url: http://jsonplaceholder.typicode.com
